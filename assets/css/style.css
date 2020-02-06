@@ -1,0 +1,32 @@
+#paragraph {
+    background-color: aqua;
+}
+
+.headingSatu {
+    background-color: chocolate;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.gambar {
+    width: 50%;
+    height: 100px;
+}
+
+.gambar-2 {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+.gambar-3 {
+    width: 50px;
+    height: 80px;
+    float: left;
+}
+
+.gambar-4 {
+    background-image: url('../img/images.jfif');
+}
