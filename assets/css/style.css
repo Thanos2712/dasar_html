@@ -30,3 +30,92 @@
 .gambar-4 {
     background-image: url('../img/images.jfif');
 }
+
+.table-style {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    border-spacing: 15px;
+}
+.mt-3{
+    margin-top: 30px;
+}
+.text-center{
+    text-align: center;
+}
+#table-1{
+    width: 100%;
+    background-color: lightblue;
+}
+table#table-2 th{
+    background-color: black;
+    color: white;
+}
+table#table-2 tr:nth-child(even){
+    background-color: blue;
+}
+table#table-2 tr:nth-child(odd){
+    background-color: red;
+}
+table#table-3 tr:nth-child(even){
+    background-color: white;
+}
+table#table-3 tr:nth-child(odd){
+    background-color:grey;
+}
+.list-style-type-disk{
+    list-style-type: disc;
+}
+.list-style-type-circle{
+    list-style-type: circle;
+}
+.list-style-type-square{
+    list-style-type: square;
+}
+.list-style-type-none{
+    list-style-type: none;
+}
+.london{
+    background-color: red;
+    color: dodgerblue;
+    padding: 20px;
+}
+.bambu-apus{
+    background-color: seagreen;
+    color: black;
+    padding: 50px;
+    font-family: sans-serif;
+}
+.city{
+    background-color:#bf3eff;
+    color: #2c393f;
+    padding: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+}
+#header{
+    background-color: goldenrod;
+    color: black;
+    padding: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center;
+    text-transform: uppercase;
+}
